@@ -13,7 +13,7 @@ const Skills = () => {
                 className="item"
                 key={data.id}
                 data-aos="flip-left"
-                data-aos-duration="1000"
+                data-aos-duration="500"
               >
                 <img src={`/assets/${data.imageSrc}`} alt="" />
                 <h3>{data.title}</h3>

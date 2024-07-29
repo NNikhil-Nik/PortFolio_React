@@ -8,13 +8,12 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Welcome to my profile",
-        "My Name is John Doe",
-        "I'm full stack developer",
-        "Androide Developer (React Native)",
+        "I am Nikhil Varshney",
+        "Frontend React Developer",
+        "Looking for SDE Roles",
       ],
-      typeSpeed: 50,
-      backSpeed: 50,
+      typeSpeed: 20,
+      backSpeed: 100,
       loop: true,
     };
 
@@ -28,7 +27,7 @@ const Home = () => {
   return (
     <>
       <div className="container home" id="home">
-        <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
+        <div className="left" >
           <h1 ref={typedRef}></h1>
 
           <a
@@ -40,7 +39,7 @@ const Home = () => {
           </a>
         </div>
         <div className="right">
-          <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
+          <div className="img" >
             <img src={`/assets/${hero.imgSrc}`} alt="hero" />
           </div>
         </div>

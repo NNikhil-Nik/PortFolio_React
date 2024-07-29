@@ -1,10 +1,10 @@
 :root {
-  --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
-  --bg-color: rgb(40, 47, 97);
+  --box-shadow: 5px 5px 10px 10px #2f2b3a;
+  --bg-color: #282828;
 }
 
 body {
-  background-color: rgb(11, 26, 51);
+  background-color: #121212;
   color: white;
 }
 
@@ -29,7 +29,7 @@ a {
 }
 
 .nav_bar .nav_items:hover {
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid #7a5af5;
 }
 
 
@@ -48,7 +48,7 @@ a {
   text-align: center;
   padding: 30px;
   border-radius: 10px;
-  border: 1px solid yellow;
+  border: 1px solid #2f2b3a;
   box-shadow: var(--box-shadow);
 }
 
@@ -56,7 +56,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: yellow; */
+  /* background-color: #2f2b3a; */
   /* height: 350px;
   width: 350px; */
 }
@@ -64,7 +64,7 @@ a {
 .home .right .img img {
   height: 270px;
   width: 270px;
-  border: 5px solid yellow;
+  border: 5px solid #2f2b3a;
   border-radius: 100%;
   animation-name: superman;
   animation-duration: 3s;
@@ -73,31 +73,20 @@ a {
 
 @keyframes superman {
   0% {
-    border-color: blue;
+    border-color: #51225a;
     transform: translate(0, 0px);
-    box-shadow: 10px 10px 100px 50px blue;
+    box-shadow: 10px 10px 100px 50px #51225a;
   }
 
   25% {
-    border-color: rgb(239, 244, 11);
-    box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    border-color: #51225a;
+    box-shadow: 10px 10px 100px 50px #51225a;
   }
 
   50% {
-    border-color: rgb(12, 12, 199);
+    border-color: #51225a;
     transform: translate(0, 10px);
-    box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
-  }
-
-  75% {
-    border-color: rgb(130, 217, 160);
-    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
-  }
-
-  100% {
-    border-color: rgb(50, 55, 205);
-    transform: translate(0, -0px);
-    box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+    box-shadow: 10px 10px 100px 50px #51225a;
   }
 }
 
@@ -116,7 +105,7 @@ a {
   padding: 30px;
   width: 800px;
   border-radius: 10px;
-  border: 1px solid yellow;
+  border: 1px solid #2f2b3a;
   box-shadow: var(--box-shadow);
 }
 
@@ -129,27 +118,26 @@ a {
 .skills .items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
-  /* width: 800px; */
   margin: auto;
-  /* background-color: yellow; */
 }
 
 .skills .items .item {
-  width: calc(33.33%);
+  flex-basis: calc(33.33% - 40px); /* Subtracting the margin */
   background-color: black;
   margin: 20px;
   text-align: center;
-  padding: 20px;
+  padding: 35px;
   border-radius: 10px;
-  border: 1px solid yellow;
+  border: 1px solid #2f2b3a;
   box-shadow: var(--box-shadow);
 }
 
 .skills .items .item img {
   width: 70px;
 }
+
 
 /* Contact */
 
@@ -169,7 +157,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  border: 2px solid yellow;
+  border: 2px solid #2f2b3a;
 }
 
 .contact-icon .items:hover {
