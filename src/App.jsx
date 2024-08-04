@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from './components/Contact'
 import Aos from "aos";
+import Achievment from "./components/Achievment"
+
 import "aos/dist/aos.css"
 
 
@@ -20,6 +22,7 @@ const App = () => {
       <Navbar />
       <div className="container">
         <Home />
+        <Achievment/>
         <Experience />
         <Projects />
         <Skills />

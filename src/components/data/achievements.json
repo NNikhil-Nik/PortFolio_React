@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "achievement": "LeetCode - Solving 500 Questions",
+      "imageSrc": "company/Leetcode.png",
+      "brief": "Achieved a milestone of solving 500 questions on LeetCode with a contest rating of 1650."
+    },
+    {
+      "id": 2,
+      "achievement": "Codeforces - Pupil",
+      "imageSrc": "company/codeforces.png",
+      "brief": "Earned the Pupil rank on Codeforces with a rating of 1330."
+    }
+  ]
+  
