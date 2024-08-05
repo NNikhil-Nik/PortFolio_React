@@ -1,3 +1,6 @@
+
+
+
 :root {
   --box-shadow: 5px 5px 10px 10px #2f2b3a;
   --bg-color: #282828;
@@ -32,6 +35,46 @@ a {
   border-bottom: 3px solid #7a5af5;
 }
 
+/* Customizing the cursor */
+.typed-cursor {
+  color: #ffcc00; /* Change the color to your preference */
+  animation: blink 0.7s infinite; /* Change the blink speed */
+}
+
+/* Hiding the cursor */
+.typed-cursor.hidden {
+  display: none;
+}
+
+/* Custom blink animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Home.css */
+
+.typed-text {
+  font-size: 2em; /* Adjust the font size as needed */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+
+/* Achievment.css */
+
+.experience-list {
+  list-style-type: disc; /* Use disc bullets for the list */
+  margin-left: 0; /* Remove default margin */
+  padding-left: 20px; /* Add padding for indentation */
+  color: yellow; /* Text color for the list items */
+}
+
+.experience-list li {
+  margin-bottom: 10px; /* Space between list items */
+}
 
 /* Home Section */
 
@@ -62,10 +105,10 @@ a {
 }
 
 .home .right .img img {
-  height: 270px;
-  width: 270px;
-  border: 5px solid #2f2b3a;
-  border-radius: 100%;
+  height: 370px;
+  width: 370px;
+  border: 2px solid #2f2b3a;
+  border-radius: 50%;
   animation-name: superman;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -168,3 +211,4 @@ a {
 .contact-icon .items .icons {
   font-size: 2rem;
 }
+

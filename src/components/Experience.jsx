@@ -26,8 +26,14 @@ const Experience = () => {
                     </span>{" "}
                     <span style={{ color: "yellow" }}>{data.location}</span>
                   </h4>
-                  <h5 style={{ color: "yellow" }}>{data.experiences[0]}</h5>
+                  {/* <h5 style={{ color: "yellow" }}>{data.experiences[0]}</h5>
                   <h5 style={{ color: "yellow" }}>{data.experiences[1]}</h5>
+                  <h5 style={{ color: "yellow" }}>{data.experiences[2]}</h5> */}
+                  <ul className="experience-list">
+                    {data.experiences.map((experience, index) => (
+                      <li key={index}>{experience}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </>

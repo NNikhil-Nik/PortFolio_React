@@ -16,7 +16,9 @@ const Achievment = () => {
                 data-aos-duration="1000"
               >
                 <div className="left">
-                  <img src={`/assets/${data.imageSrc}`} alt="" />
+                <a href={data.url} target="_blank" rel="noopener noreferrer">
+                  <img src={`/assets/${data.imageSrc}`} alt="Achievement" />
+                </a>
                 </div>
                 <div className="right">
                   <h2>{data.achievement}</h2>

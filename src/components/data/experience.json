@@ -7,7 +7,9 @@
     "endDate": "Present",
     "location": "Noida",
     "experiences": [
-      "Worked on VueJs,Selenium,Cucumber,Java,Cypress"
+      "Worked on VueJs,Selenium,Cucumber,Java,Cypress",
+      "Worked on new UI developed in VueJs",
+      "Developed comprehensive automated test cases using Selenium,Cucumber and Cypress to ensure software quality and functionality"
     ],
     "imageSrc": "company/images.png"
   }
