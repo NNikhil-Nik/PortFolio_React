@@ -19,6 +19,7 @@ const Projects = () => {
                   src={data.imageSrc}
                   className="card-img-top"
                   alt={data.title}
+                  style={{ width: "270px", height: "200px" }}
                 />
               </div>
               <div className="card-body text-center">

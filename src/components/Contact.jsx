@@ -16,23 +16,14 @@ const Contact = () => {
           data-aos="zoom-in-up"
           data-aos-duration="1000"
         >
-          <a href="https://www.google.com" target="_blank" className="items">
-            <FaInstagram className="icons" />
-          </a>
-          <a href="https://www.google.com" target="_blank" className="items">
-            <CiFacebook className="icons" />
-          </a>
-          <a href="https://www.google.com" target="_blank" className="items">
+          <a href="https://www.linkedin.com/in/nikhil-varshney-3b3a921b6/" target="_blank" className="items">
             <CiLinkedin className="icons" />
           </a>
-          <a href="https://www.google.com" target="_blank" className="items">
-            <FaSquareXTwitter className="icons" />
-          </a>
-          <a href="https://www.github.com" target="_blank" className="items">
+          <a href="https://github.com/NNikhil-Nik" target="_blank" className="items">
             <FaGithubSquare className="icons" />
           </a>
           <a
-            href="mailto:webdevmastery@gmail.com"
+            href="mailto:nikhilnikvarshney007@gmail.com"
             target="_blank"
             className="items"
           >
